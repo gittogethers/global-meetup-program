@@ -1,0 +1,66 @@
+name: Meetup Organizer Application
+description: Apply to join GitHub's global meetup program
+labels: ["application", "⏳ pending review"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Welcome 🎉
+        Thank you for applying to join the **GitHub Global Meetup Program**.  
+        Please complete the following information so we can review your application.
+
+  - type: input
+    id: full_name
+    attributes:
+      label: Full Name
+      description: Your full name as an organizer.
+      placeholder: "Jane Doe"
+    validations:
+      required: true
+
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub Username
+      description: Your GitHub handle (without the @).
+      placeholder: "janedoe"
+    validations:
+      required: true
+
+  - type: input
+    id: meetup_url
+    attributes:
+      label: Meetup Group URL
+      description: Link to your main meetup page.
+      placeholder: "https://meetup.com/GitHub-City"
+    validations:
+      required: true
+
+  - type: textarea
+    id: meetup_details
+    attributes:
+      label: Tell us about your Meetup group
+      description: Include size, focus, and how often you meet.
+      placeholder: "We are a developer community with 1,200 members focused on open-source and GitHub tools."
+    validations:
+      required: true
+
+  - type: textarea
+    id: goals
+    attributes:
+      label: Why do you want to join?
+      description: Share your goals for joining the program and how you plan to deliver GitHub-focused content.
+      placeholder: "We want to bring more GitHub knowledge to our developer community..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: commitments
+    attributes:
+      label: Program Commitments
+      description: Please confirm you agree to meet the minimum Foundation Partner requirements (please refer to our Tiered Value Exchange in the README for more information).
+      options:
+        - label: I agree to have at least 1 GitHub workshop, hackathon, or talk delivered at my meetup per quarter
+          required: true
+```
