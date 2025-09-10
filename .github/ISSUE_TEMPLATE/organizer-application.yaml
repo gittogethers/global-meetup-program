@@ -63,4 +63,3 @@ body:
       options:
         - label: I agree to have at least 1 GitHub workshop, hackathon, or talk delivered at my meetup per quarter
           required: true
-```
