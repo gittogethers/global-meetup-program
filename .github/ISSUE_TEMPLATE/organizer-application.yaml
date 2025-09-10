@@ -1,5 +1,6 @@
 name: Meetup Organizer Application
 description: Apply to join GitHub's global meetup program
+title: Meetup Organizer App: [name of meetup]
 labels: ["application", "⏳ pending review"]
 
 body:
@@ -8,7 +9,7 @@ body:
       value: |
         ## Welcome 🎉
         Thank you for applying to join the **GitHub Global Meetup Program**.  
-        Please complete the following information so we can review your application.
+        Please complete the following information so we can review your application. Be sure to edit the title of this issue to show your meetup name.
 
   - type: input
     id: full_name
