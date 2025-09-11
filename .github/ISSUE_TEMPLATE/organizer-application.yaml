@@ -60,7 +60,7 @@ body:
     id: commitments
     attributes:
       label: Program Commitments
-      description: Please confirm you agree to meet the minimum Foundation Partner requirements (please refer to our Tiered Value Exchange in the README for more information).
+      description: Please confirm you agree to meet the Eligibility Requirements and are willing to complete the Foundation Partner requirements (please refer to our Tiered Value Exchange in the README for more information).
       options:
-        - label: I agree to have at least 1 GitHub workshop, hackathon, or talk delivered at my meetup per quarter
+        - label: I agree to deliver at least 1 GitHub workshop, hackathon, or talk at my meetup per quarter
           required: true
