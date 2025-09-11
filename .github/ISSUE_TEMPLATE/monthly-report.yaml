@@ -1,0 +1,53 @@
+name: "Monthly Meetup Activity Report"
+description: "Report your GitHub-related meetup activities for this month"
+title: "[Report] Meetup Activity - [MONTH, YEAR] - MEETUP NAME"
+labels: ["monthly-report", "activity"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Monthly Activity Report 📅
+        Thank you for sharing GitHub with your meetup community! The purpose of this template it to provide a place for you to summarize all activities for the month in one place. Please fill in the details for your GitHub-focused events this past month.
+
+  - type: input
+    id: month
+    attributes:
+      label: Month Reported
+      description: The month this report covers.
+      placeholder: "September 2025"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: activities
+    attributes:
+      label: Activities Completed
+      description: Select all types of content you delivered this month.
+      options:
+        - label: Delivered a GitHub-approved Workshop (e.g., Copilot, Platform)
+        - label: Ran a Copilot Hackathon
+        - label: Delivered a GitHub product talk or demo
+        - label: Shared GitHub Sponsor Statement/Slide at an event
+        - label: Other GitHub-related activity
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Event Details
+      description: List workshop names, dates, and any key details.
+      placeholder: |
+        Example:
+        - **Event**: Copilot Hackathon
+        - **Date**: Jan 15, 2024
+        - **Attendees**: 80
+        - **Links**: [Recording](https://example.com), [Recap](https://example.com)
+        - **Social Media Promotion**: LinkedIn posts, Twitter or X posts, etc
+    validations:
+      required: true
+      
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback or Needs
+      description: Let us know any feedback about GitHub, the program, or additional resources you need.
+      placeholder: "We need more stickers and a new workshop on GitHub Actions!"
