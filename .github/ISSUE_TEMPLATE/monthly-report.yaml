@@ -1,7 +1,7 @@
 name: "Monthly Meetup Activity Report"
 description: "Report your GitHub-related meetup activities for this month"
 title: "[Report] Meetup Activity - [MONTH, YEAR] - MEETUP NAME"
-labels: ["monthly-report", "activity"]
+labels: ["monthly-report"]
 body:
   - type: markdown
     attributes:
