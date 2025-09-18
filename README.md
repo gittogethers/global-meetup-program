@@ -23,7 +23,7 @@ Upon acceptance into our meetup program, Foundation Partner is where most meetup
 - Join GitHub’s meetup newsletter sent out quarterly for updates to the meetup program
 - Access to GitHub-approved workshops on various product offerings, including GitHub Copilot, and self-serve video content for presentations to your audience
 **Organizer commitments:**
-- Deliver one of our provided workshops, run a Copilot Hackathon, or have an attendee (or yourself!) deliver a GitHub-product talk/demo **once per quarter**
+- Deliver one of our provided workshops or have an attendee (or yourself!) deliver a GitHub-product talk/demo **once per quarter**
 
 ### 🥈 Silver Partner
 The Silver Partner level indicates a deeper commitment and stronger advocacy of GitHub and our products. Meetup organizers can move up to this level once they start demonstrating some of the commitments outlined below:
