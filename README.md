@@ -16,7 +16,7 @@ Meetups eligible for sponsorship must be:
 To align value with impact, the Global Meetup Program provides a three-tiered system of sponsorship benefits. Organizers can move to higher benefit levels by delivering more frequent GitHub-focused value back to the community.
 
 ### 🥉 Bronze Partner
-Upon acceptance into our meetup program, Foundation Partner is where most meetup organizers will begin getting plugged into their collaboration with GitHub. 
+Upon acceptance into our meetup program, Bronze Partner is where most meetup organizers will begin getting plugged into their collaboration with GitHub. 
 
 **Benefits:**
 - Sponsorship of Meetup Pro access on our [GitHub page](https://www.meetup.com/github/) on Meetup.com for increased visibility
